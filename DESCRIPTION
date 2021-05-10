@@ -1,0 +1,10 @@
+Package: mr
+Type: Package
+Title: Demo Package for Mastering R class
+Version: 0.1.0
+Author: Steve <jantso96@gmail.com>
+Maintainer: Steve <jantso96@gmail.com>
+Description: Demo Package for Mastering R class.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
