@@ -7,7 +7,7 @@
 forint(x)
 }
 \arguments{
-\item{x}{number}
+\item{x}{numeric vector}
 }
 \value{
 string
@@ -18,4 +18,5 @@ Formats numbers as Hungarian Forint
 \examples{
 forint(42)
 forint(10000000.213214)
+forint(1:10)
 }
