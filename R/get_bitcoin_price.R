@@ -1,10 +1,12 @@
-#' Look up the value of a US Dollar in Hungarian Forints
-#' @param retried number of times the function already failed
+#' Gets value of 1 USD in Hungarian HUF
+#' @param retried number of times the function has been retried
 #' @return number
 #' @export
+#' @importFrom logger log_info
 #' @importFrom jsonlite fromJSON
-#' @importFrom logger log_error log_info
 #' @importFrom checkmate assert_number
+#' @examples
+#' get_usdhuf()
 get_usdhuf <- function(retried = 0) {
   tryCatch({
     ## httr
