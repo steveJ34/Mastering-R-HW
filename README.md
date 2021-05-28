@@ -1,1 +1,1 @@
-# Homework 1 for Mastering R course
+# Final project for Mastering R skills course 
