@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+home:
+title: An R package for pool-noodle discovery
+description: >
+Do you love R? Do you love pool-noodles? If so, you might enjoy
+using this package to automatically discover and add pool-noodles
+to your growing collection.
